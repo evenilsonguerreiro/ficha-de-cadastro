@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRO</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="main-container">
+        <h1>Cadastre-se Para Acessar</h1>
+        <form id="register-form">
+            <div class="full-box">
+                <label for="email">E-mail</label>
+                <input type="text" name="email" id="email" placeholder="digite seu email">
+            </div>
+                <div class="rarf-box spacing">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" placeholder="digite seu nome">
+            </div>
+                <div class="harf-box">
+                <label for="lastname">Sobrenome</label>
+                <input type="text" name="lastname" id="lastname" placeholder="digite seu sobrenome">
+            </div>
+                <div class="rarf-box spacing">
+                <label for="password">Senha</label>
+                <input type="password" name="password" id="password" placeholder="digite sua senha">
+            </div>
+                <div class="harf-box">
+                <label for="password-confimation">Confirmar senha</label>
+                <input type="password" name="password-confimation" id="password-confimation"placeholder='confirme sua senha'>
+            </div>
+                <div class="rarf-box">
+                <input type="checkbox" name="ageement" id="ageement">
+                <label for="ageement" id="ageement">Eu li e aceito os <a href="">termos</a></label>
+                </div>
+                <div class="full-box">
+                <input type="submit" id="btn-submit" value="Registrar">
+                </div>
+        </form>
+    </div>
+    <p class="erro-validation template"></p>
+    
+</body>
+</html>
